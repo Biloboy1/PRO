@@ -228,7 +228,7 @@ def menu(my_name,my_id,my_birthday):
 		file()
 	elif jh in ['0','00']:
 		os.system('rm -rf .token.txt')
-		print()h+'•'+h+'] Wait ...')
+		
 		time.sleep(1)
 		sw = '# BERHASIL LOG OUT'
 		sol().print(mark(sw, style='green'))
